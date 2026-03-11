@@ -15,6 +15,12 @@ npm run dev
 npm run build
 ```
 
+## SQL Database File
+
+Attached copy and pushed to this repo in: 
+data/
+├── slotmachine.db
+
 ## Implemented Features
 
 ### Core Game
@@ -80,6 +86,5 @@ src/
 
 ## Known Issues & Limitations
 
-- Auto-spin does not allow changing the bet amount mid-sequence (bet is fixed at 10 coins).
-- Sound synthesis is basic; a production game would benefit from pre-recorded audio samples.
+- Animations and visuals could be better for a production app. 
 - No unit tests are included — the pure `slotEngine.ts` module is designed to be easily testable.
